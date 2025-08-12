@@ -1,0 +1,8 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 12 05:06:11.660843 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.4.21 configured -- resuming normal operations
+[Tue Aug 12 05:06:11.660881 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: /usr/sbin/sendmail: not found
+[Tue Aug 12 05:07:27.650907 2025] [php7:warn] [pid 59] [client 192.168.56.1:60374] PHP Warning:  require(/var/www/html/wp-includes/class-wp-exception.php): failed to open stream: No such file or directory in /var/www/html/wp-settings.php on line 43, referer: http://192.168.56.10:8888/wp-login.php
+[Tue Aug 12 05:07:27.650945 2025] [php7:error] [pid 59] [client 192.168.56.1:60374] PHP Fatal error:  require(): Failed opening required '/var/www/html/wp-includes/class-wp-exception.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-settings.php on line 43, referer: http://192.168.56.10:8888/wp-login.php
+sh: 1: /usr/sbin/sendmail: not found
+[Tue Aug 12 05:09:01.186981 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
